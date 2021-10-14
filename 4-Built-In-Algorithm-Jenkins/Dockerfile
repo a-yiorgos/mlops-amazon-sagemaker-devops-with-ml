@@ -11,6 +11,7 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
          gcc \
          libc6-dev \
          make \
+         file \
          wget \
          python \
          nginx \
