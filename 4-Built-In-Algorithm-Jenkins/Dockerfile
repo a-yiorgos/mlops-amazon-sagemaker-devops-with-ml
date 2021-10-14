@@ -9,6 +9,7 @@ MAINTAINER Amazon AI <sage-learner@amazon.com>
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          gcc \
+         libc6-dev \
          wget \
          python \
          nginx \
